@@ -1,3 +1,3 @@
 # Insurance quote with prototypes
 
-Github page
+Github page✨ https://camilog909.github.io/insurance-quote/
