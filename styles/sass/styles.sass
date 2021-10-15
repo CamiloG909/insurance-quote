@@ -56,8 +56,13 @@ body
 		font-size: 1.3rem
 		font-weight: bold
 		text-align: center
+		text-transform: uppercase
 		background-color: $green
 		user-select: none
+		&.error
+			background-color: $dark-red
+		&.total
+			background-color: $dark-blue
 	&__form
 		padding: 20px
 		text-align: center
@@ -92,6 +97,24 @@ body
 			background-color: $dark-green
 		&:active
 			border-color: $dark-green
+		&-back
+			font-size: 1.6rem
+			font-weight: bold
+			line-height: 4rem
+			text-decoration: none
+			color: $green
+			transition: all 0.3s ease
+			&:hover
+				text-decoration: underline
+	&__result
+		padding: 10px 0
+		font-size: 1.6rem
+		font-weight: 500
+		line-height: 3rem
+		background-color: $dark-gray
+		strong
+			padding-inline-end: 10px
+			color: $soft-green
 
 .quote
 	&__container
@@ -114,7 +137,3 @@ body
 	line-height: 4rem
 	input
 		background-color: green
-
-.box__title.error
-	color: white
-	background-color: $dark-red
